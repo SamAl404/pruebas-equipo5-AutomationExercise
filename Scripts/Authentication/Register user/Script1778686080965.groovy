@@ -79,6 +79,10 @@ WebUI.verifyElementVisible(findTestObject('Page_Automation Exercise - Account Cr
 
 WebUI.click(findTestObject('Page_Automation Exercise - Account Created/a_Continue'))
 
+WebUI.refresh()
+
+WebUI.click(findTestObject('Page_Automation Exercise - Account Created/a_Continue'))
+
 WebUI.verifyElementVisible(findTestObject('Page_Automation Exercise/i_Logged in as_fa fa-user'))
 
 WebUI.click(findTestObject('Page_Automation Exercise/a_Delete Account'))
